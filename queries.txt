@@ -1,0 +1,2 @@
+SQLQ[4] = "SELECT users.id,users.username,posts.pid,posts.pmessage FROM users INNER JOIN posts ON posts.uid=2 AND users.id=2"
+SQLQ[5] = "SELECT id,username,pid,pmessage FROM users,posts WHERE id=2 AND uid=2"
